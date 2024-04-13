@@ -1,0 +1,10 @@
+
+
+
+#colorList {
+    display: flex;
+}
+.color-div {
+    width: 20vw;
+    height: 60vh;
+}

@@ -7,22 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <input id="color" type="color" name="color">
-    <select id="scheme" name="scheme">
-        <option value="monochrome">monochrome</option> 
-        <option value="monochrome-dark">monochrome-dark</option> 
-        <option value="monochrome-light">monochrome-light</option> 
-        <option value="analogic">analogic</option>  
-        <option value="complement">complement</option>  
-        <option value="analogic-complement">analogic-complement</option>  
-        <option value="triad">triad</option>  
-        <option value="quad">quad</option> 
-    </select>
-    <button id="get-scheme">Get Color Scheme</button>
-    <div id="colorList">
-
-    </div>
-
+    <main>
+        <section class="controls">
+            <input id="color" type="color" name="color">
+            <select id="scheme" name="scheme">
+                <option value="monochrome">monochrome</option> 
+                <option value="monochrome-dark">monochrome-dark</option> 
+                <option value="monochrome-light">monochrome-light</option> 
+                <option value="analogic">analogic</option>  
+                <option value="complement">complement</option>  
+                <option value="analogic-complement">analogic-complement</option>  
+                <option value="triad">triad</option>  
+                <option value="quad">quad</option> 
+            </select>
+            <button id="get-scheme">Get Color Scheme</button>
+        </section>
+            <div id="colorList">
+            
+        </div>
+        
+    </main>
     <script src="./index.js"></script>
 </body>
 </html>

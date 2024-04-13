@@ -48,6 +48,7 @@ function buildColorTable(colorData) {
         
     });
 }
+
 function destroyColorTable(div) {
     div.innerHTML = ""
 }

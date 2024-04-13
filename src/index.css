@@ -8,6 +8,7 @@ body, html {
     display: flex;
     align-items: center;
     min-height: 90px;
+    
 }
 
 #color, #scheme, button {
@@ -15,6 +16,7 @@ body, html {
     margin: 10px;
     border-radius: 4px;
     font: inherit;
+    min-width: 61px;
 }
 
 button {

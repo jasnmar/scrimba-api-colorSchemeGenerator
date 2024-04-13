@@ -44,7 +44,6 @@ function buildColorTable(colorData) {
         pText.textContent = colorValue
         containerDiv.appendChild(pText)
         colorDiv.appendChild(containerDiv)
-        console.log(color.hex.value)
         
     });
 }
